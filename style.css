@@ -28,9 +28,9 @@ This theme, like WordPress, is licensed under the GPL. Use it to make something 
 
 /*Padrao*/
 
-body *:focus { outline-offset: none;  outline: none } .site-info p, .site-info a {color: #181a39 } 
+body *:focus { outline-offset: none;  outline: none } .site-info p, .site-info a, a {color: #181a39 } .widget_search .search-submit, .post-page-search .search-submit {border-color: #181a39 }
 
-/*cores do cliente*/.header-brand, .hl-category-header, .right-widget-area .widget-title, #secondary .widget-title, .left-widget-area .widget-title::before { background-color: #272a5b;} #nav-sticker, .back-to-top,  button, input[type="button"], input[type="reset"], input[type="submit"] { background-color: #181a39; }
+/*cores do cliente*/.header-brand, .hl-category-header, .right-widget-area .widget-title, #secondary .widget-title, .left-widget-area .widget-title::before { background-color: #272a5b;} #nav-sticker, .back-to-top,  button, input[type="button"], input[type="reset"], input[type="submit"], .widget_search .search-submit, .post-page-search .search-submit { background-color: #181a39; }
 
 
 .flash-news-header {background: linear-gradient(-45deg, #272a5b, #EEEEEE, #484c8e, #333333);background-size: 400% 400%;-webkit-animation: Gradient 15s ease infinite;-moz-animation: Gradient 15s ease infinite;animation: Gradient 15s ease infinite;float: left;z-index: 2;position: absolute;left: 0;}
